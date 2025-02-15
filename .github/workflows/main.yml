@@ -32,7 +32,7 @@ jobs:
       - name: Upload JAR Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: spring-boot-actions-0.0.1-SNAPSHOT.jar
+          name: spring-boot-actions
           path: build/libs/*.jar
 
   deploy:
