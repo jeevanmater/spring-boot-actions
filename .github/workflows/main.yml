@@ -48,7 +48,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: spring-boot-actions
-          path: .
+          path: build/libs/*.jar
 
       - name: Deploy Application via SSH
         uses: appleboy/ssh-action@v0.1.10
